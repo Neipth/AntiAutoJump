@@ -1,0 +1,13 @@
+{
+	"required": true,
+	"package": "net.neipth.antiautojump.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"MinecraftClientMixin",
+		"ControlOptionsScreenMixin",
+		"AccessibilityScreenMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
